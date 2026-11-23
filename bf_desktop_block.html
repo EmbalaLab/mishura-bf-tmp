@@ -1,0 +1,49 @@
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap">
+<style>
+.mbf{container-type:inline-size;width:100%;overflow:hidden;font-family:Helvetica,Arial,sans-serif;line-height:1.2;text-align:left}
+.mbf,.mbf *{box-sizing:border-box}
+.mbf a{display:block;text-decoration:none}
+.mbf__in{--u:calc(100vw/1920)}
+@supports (width:1cqw){.mbf__in{--u:calc(100cqw/1920)}}
+.mbf__strip{padding-top:60px;background:#e4e3f1;color:#3c3990 !important}
+.mbf__strip-row{height:max(52px,calc(84*var(--u)));display:flex;align-items:center;justify-content:center;gap:max(22px,calc(40*var(--u)));white-space:nowrap;font-size:max(14px,calc(19*var(--u)))}
+.mbf__strip-name{font-family:'Comfortaa','Comforta',sans-serif;font-weight:500;font-size:max(15px,calc(21*var(--u)))}
+.mbf__strip-b{font-weight:700}
+.mbf__strip-go{font-weight:700;text-decoration:underline;text-underline-offset:.26em}
+.mbf__hero{position:relative;height:calc(800*var(--u));background:#3c3990;color:#fff !important}
+.mbf__photo{position:absolute;right:0;top:0;width:calc(800*var(--u));height:calc(800*var(--u));background:#fff}
+.mbf__photo img{display:block;width:100%;height:100%}
+.mbf__text{position:absolute;left:calc(300*var(--u));top:0;width:calc(800*var(--u));height:100%;padding:calc(96*var(--u)) 0 calc(88*var(--u));display:flex;flex-direction:column;justify-content:space-between}
+.mbf__top{display:flex;flex-direction:column;gap:calc(28*var(--u))}
+.mbf__date{display:flex;align-items:center;gap:calc(24*var(--u));font-size:calc(22*var(--u));font-weight:700;letter-spacing:.14em;text-transform:uppercase}
+.mbf__date i{display:block;width:calc(64*var(--u));height:max(1px,calc(1*var(--u)));background:#fff}
+.mbf__title{font-family:'Comfortaa','Comforta',sans-serif;font-weight:300;font-size:calc(104*var(--u));line-height:1.1;letter-spacing:-.01em}
+.mbf__offer{display:flex;align-items:flex-end;gap:calc(28*var(--u))}
+.mbf__num{display:flex;align-items:baseline;gap:calc(18*var(--u));color:#c9d2ff}
+.mbf__num span{font-size:calc(44*var(--u))}
+.mbf__num b{font-family:'Comfortaa','Comforta',sans-serif;font-weight:700;font-size:calc(160*var(--u));line-height:.9;letter-spacing:-.03em;white-space:nowrap}
+.mbf__what{margin:0 0 calc(8*var(--u));font-size:calc(30*var(--u));line-height:1.3}
+.mbf__cta{display:flex;align-items:center;gap:calc(32*var(--u))}
+.mbf__btn{display:inline-flex;align-items:center;height:calc(76*var(--u));padding:0 calc(44*var(--u));border-radius:calc(38*var(--u));background:#fff;color:#3c3990;font-size:calc(25*var(--u));font-weight:700;white-space:nowrap}
+.mbf__note{font-size:calc(23*var(--u))}
+@media (max-width:979px){.mbf{display:none}}
+</style>
+<div class="mbf"><div class="mbf__in">
+<a class="mbf__strip" href="/sale" aria-label="Черничная пятница — до −40% на избранные коллекции, 23–30 ноября. Смотреть скидки">
+<div class="mbf__strip-row"><span class="mbf__strip-name">черничная пятница</span><span class="mbf__strip-b">до −40% на избранные коллекции</span><span>23–30 ноября</span><span class="mbf__strip-go">Смотреть скидки →</span></div>
+</a>
+<a class="mbf__hero" href="/sale" aria-label="Черничная пятница — скидки до −40% на избранные коллекции, 23–30 ноября. Смотреть скидки">
+<div class="mbf__photo"><img src="__PHOTO_URL__" width="1600" height="1600" alt="Девочка в тёмно-синем пальто MISHURA"></div>
+<div class="mbf__text">
+<div class="mbf__top">
+<div class="mbf__date"><i></i><span>23–30 ноября</span></div>
+<div class="mbf__title">Черничная<br>пятница</div>
+</div>
+<div class="mbf__offer">
+<div class="mbf__num"><span>до</span><b>−40%</b></div>
+<p class="mbf__what">на избранные<br>коллекции</p>
+</div>
+<div class="mbf__cta"><span class="mbf__btn">Смотреть скидки →</span><span class="mbf__note">Скидка действует всю неделю</span></div>
+</div>
+</a>
+</div></div>
